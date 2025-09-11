@@ -1,0 +1,14 @@
+[project]
+name = "scorelint"
+version = "0.1.0"
+description = "A semantic linter for digital music scores."
+dependencies = [
+    "colorama>=0.4.6",
+    "lxml",
+]
+
+[project.scripts]
+scorelint = "scorelint.cli:run_cli"
+
+[tool.uv]
+package = true
