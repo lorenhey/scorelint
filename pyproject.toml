@@ -1,7 +1,8 @@
 [project]
 name = "scorelint"
-version = "0.1.0"
-description = "A semantic linter for digital music scores."
+version = "2.0.0"
+description = "Semantic MusicXML Linter, Engraving Quality Inspector & Exact Rational Timing Workbench"
+readme = "README.md"
 dependencies = [
     "colorama>=0.4.6",
     "lxml",
